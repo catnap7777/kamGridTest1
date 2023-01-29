@@ -1,28 +1,41 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/root"
+    android:id="@+id/constraintLayout1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFC107">
+    tools:context=".MainActivity">
+
 
     <GridView
-        android:id="@+id/gridview1"
-        android:layout_width="402dp"
-        android:layout_height="671dp"
+        android:id="@+id/gridView1"
+        android:layout_width="383dp"
+        android:layout_height="677dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="3dp"
-        android:layout_marginTop="19dp"
-        android:layout_marginEnd="3dp"
-        android:layout_marginBottom="40dp"
-        android:background="#FFC107"
-        android:columnWidth="42dp"
-        android:gravity="center"
-        android:horizontalSpacing="2dp"
+        android:background="@android:color/holo_orange_light"
+        android:columnWidth="75dp"
+        android:fadeScrollbars="false"
+        android:horizontalSpacing="5dp"
         android:numColumns="8"
-        android:stretchMode="none"
-        android:verticalSpacing="2dp" />
+        android:orientation="vertical"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:scrollX="0dp"
+        android:scrollY="0dp"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbarSize="12dp"
+        android:scrollbarStyle="outsideInset"
+        android:scrollbarThumbVertical="@drawable/custom_scroll"
+        android:scrollbars="vertical"
+        android:verticalScrollbarPosition="right"
+        android:verticalSpacing="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-</RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
