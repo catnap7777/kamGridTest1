@@ -3,22 +3,26 @@
     android:id="@+id/root"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#9C27B0">
+    android:background="#FFC107">
 
     <GridView
         android:id="@+id/gridview1"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="10dp"
-        android:layout_marginBottom="10dp"
+        android:layout_width="402dp"
+        android:layout_height="671dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="40dp"
         android:background="#FFC107"
-        android:columnWidth="90dp"
+        android:columnWidth="42dp"
         android:gravity="center"
-        android:horizontalSpacing="10dp"
-        android:numColumns="auto_fit"
-        android:stretchMode="columnWidth"
-        android:verticalSpacing="10dp" />
+        android:horizontalSpacing="2dp"
+        android:numColumns="8"
+        android:stretchMode="none"
+        android:verticalSpacing="2dp" />
 
 </RelativeLayout>

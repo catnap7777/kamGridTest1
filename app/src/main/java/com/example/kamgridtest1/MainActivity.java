@@ -33,7 +33,16 @@ public class MainActivity extends AppCompatActivity {
         //const1.setBackgroundResource(R.drawable.cat);
 
         //.. example from https://stackoverflow.com/questions/12047369/how-to-set-border-of-gridview-on-android
-        String[] array = new String[] {"one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten"};
+        //String[] array = new String[] {"one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten"};
+        String[] array = new String[] {"", "", "", "", "", "", "", "",
+                                        "", "", "", "", "", "", "", "",
+                                        "", "", "", "", "", "", "", "",
+                                        "", "", "", "", "", "", "", "",
+                                        "", "", "", "", "", "", "", "",
+                                        "", "", "", "", "", "", "", "",
+                                        "", "", "", "", "", "", "", "",
+                                        "", "", "", "", "", "", "", ""
+                                        };
         List<String> list = new ArrayList<String>(Arrays.asList(array));
 
         GridView grid1 = (GridView) findViewById(R.id.gridview1);
