@@ -44,12 +44,16 @@ public class MainActivity extends AppCompatActivity {
         int[] images = {
                 R.drawable.apple2,
                 R.drawable.cat,
+                R.drawable.clearnigiri,
                 R.drawable.apple2,
                 R.drawable.cat,
+                R.drawable.clearnigiri,
                 R.drawable.apple2,
                 R.drawable.cat,
+                R.drawable.clearnigiri,
                 R.drawable.apple2,
                 R.drawable.cat,
+                R.drawable.clearnigiri,
                 R.drawable.apple2,
                 R.drawable.cat,
         };

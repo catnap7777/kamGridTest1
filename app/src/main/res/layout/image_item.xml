@@ -7,10 +7,10 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="75dp"
-        android:layout_height="75dp"
-        android:layout_weight="25"
+        android:layout_width="35dp"
+        android:layout_height="37dp"
         android:rotationX="-10"
+        android:scaleType="fitXY"
         app:srcCompat="@drawable/apple2"
         tools:ignore="ImageContrastCheck" />
 </LinearLayout>
