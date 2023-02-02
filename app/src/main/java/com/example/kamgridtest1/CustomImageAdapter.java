@@ -37,7 +37,8 @@ public class CustomImageAdapter extends BaseAdapter {
         imageView = new ImageView(context);
         //imageView.setLayoutParams(new ViewGroup.LayoutParams(85, 85));
         imageView.setLayoutParams(new GridView.LayoutParams(325,325));
-        imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
+        //imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
+        imageView.setScaleType(ImageView.ScaleType.FIT_START);
         imageView.setPadding(8, 8, 8, 8);
 
 //        if (convertView == null) {
